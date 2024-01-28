@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* vid background*/
+#vidbg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* navigation bar */
+nav{
+    border-radius: 25px;
+    color: white;
+    background-color: #0f2043;
+    width: 85vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+/* childhope philippines in navbar*/
+nav img{
+    width: 15vw;
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+/* who we are and about us links that lead to page 2 and page 3, respectively*/
+.links {
+    margin-left: 40vw;
+}
+.links a{
+    color: white;
+    background-color: #162f65;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: auto;
+    transition: background-color 0.3s ease-out;
+}
+/*for the hover effect*/
+.links a:hover{
+    background-color: black;
+}
+/*to color specific text white*/
+.white{
+    color: white;
+    font-family: 'Archivo', sans-serif;
+}
+/*for the banner with 0.3 opacity*/
+.banner{
+    color: #162f65;
+    background-color: rgba(51, 97, 172, 0.3);
+    padding: 31vh;
+    margin-top: 7vh;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* to move the childhope image to the bottom right side of the banner*/
+.bottright{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* for the text of page 1*/
+.text1{
+    color: #0f2043;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: #e8c766;
+    padding: 5vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+}
+/* for the h2 text of page 1*/
+.text1 h2 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    margin-left: 1vw;
+}
+/* for the h1 text of page 1 */
+.text1 h1{
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+}
+/* for the p text of page 1*/
+.text1 p{
+    margin-top: 3vh;
+}
+/*organization background*/
+#orgbg{
+    border-radius: 25px;
+    background-color: #e8af30;
+    padding: 5px;
+}
+/*what the organization has done so far*/
+#wtohdsf{
+    border-radius: 25px;
+    background-color: #e8af30;
+    padding: 5px;
+    margin-top: 3vh;
+}
+/* for the h2 text of the "what the organization has done so far" part*/
+#wtohdsf h2{
+color: #3361ac;
+}
+/* for the text outside of the box in page 1*/
+#septext{
+    margin-top: 5vh;
+}
+/* footer */
+footer{
+    border-radius: 25px;
+    color: white;
+    background-color: #0f2043;
+    width: 85vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Archivo', sans-serif;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+/* for the sprite icons */
+.icon{
+    background: url(media/sprite3.png);
+    width: 66px;
+    height: 66px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+/* twitter sprite icon*/
+#twt{
+    background-position: 10.138% 25.623%;
+}
+/* insta sprite icon*/
+#insta{
+    background-position: 44.479% 78.648%;
+}
+/* gmail sprite icon*/
+#gmail{
+    background-position: 55.982% 78.648%;
+}
+/* fb sprite icon*/
+#fb{
+    background-position: 67.331% 51.957%;
+}
+/* for page 2*/
+.page2{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #162f65, white)
+}
+/* for the text in page 2*/
+.text2{
+    margin-top: 5vh;
+    position: relative ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* for the h1 text of page 2*/
+.text2 h1{
+    font-family: 'Archivo', sans-serif;
+    color: #e8af30;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+/* for the p text of page 2*/
+.text2 p{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: #0f2043;
+}
+/* initiatives */
+.initiatives{
+    background-color: #3361ac;
+    padding: 5px;
+    border-radius: 25px;
+    width: 85vw;
+    margin-left: 7vw;
+    display: inline-block;
+    position: relative;
+}
+/*involvements*/
+.involvements{
+    background-color: #3361ac;
+    padding: 5px;
+    border-radius: 25px;   
+    width: 85vw;
+    margin-left: 7vw;
+    margin-top: 3vh;
+    display: inline-block;
+    position: relative;
+}
+/* activities and participation*/
+.actsnpart{
+    background-color: #3361ac;
+    padding: 5px;
+    border-radius: 25px;   
+    width: 85vw;
+    margin-left: 7vw;
+    margin-top: 3vh;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2vw;
+}
+/* for page 3*/
+.page3{
+    background-color: #3361ac;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+/* for the h1 text of page 3*/
+.page3 h1{
+    color: #e8af30;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+/* for the p text of page 3*/
+.page3 p{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: #e8af30;
+}
+/* who we are */
+.whoweare{
+    background-color: #0f2043;
+    padding: 5px;
+    border-radius: 25px;
+    width: 30vw;
+    margin-left: 7vw;
+    margin-top: 3vh;
+    display: inline-block;
+    position: relative;
+}
+/* mission */
+.mission{
+    background-color: #0f2043;
+    padding: 5px;
+    border-radius: 25px;
+    width: 85vw;
+    margin-left: 7vw;
+    margin-top: 3vh;
+    display: inline-block;
+    position: relative;
+}
+/* vision */
+.vision{
+    background-color: #0f2043;
+    padding: 5px;
+    border-radius: 25px;
+    width: 85vw;
+    margin-left: 7vw;
+    margin-top: 3vh;
+    display: inline-block;
+    position: relative;
+}
+/* how to help */
+.howtohelp{
+    background-color: #0f2043;
+    padding: 5px;
+    border-radius: 25px;
+    width: 85vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+/* for the centered video in how to help*/
+.howtohelp video{
+    width: 100%;
+    height: auto;
+    max-width: 50vw;
+    text-align: center;
+    margin: auto;
+}
+/* to bolden specific text */
+.bold{
+    font-weight: bold;
+}
+/* to center video in page 3*/
+.vidvol{
+    text-align: center;
+}
+/* for the p text of how to help*/
+.howtohelp p{
+    margin-top: 2px;
+}
+/* for the image beside who we are*/
+.text3 img{
+    width: 50vw;
+    height: 50vh;
+}
+/* for the childhope logo animation*/
+.childbig{
+    z-index: -1;
+    display: inline-block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#childhopebig{
+    background-image: url(media/childbig.png);
+    width: 200px;
+    height: 200px;
+    animation: childbig 10s linear infinite;
+}
+@keyframes childbig {
+    0% {transform: translate(2000px, 0px);}
+    50% {transform: rotate(70deg);}
+    75% {transform: scale(.8);}
+    100% {transform: translate(2000px, 100px);}
+}
+
